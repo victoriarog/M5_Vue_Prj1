@@ -3,6 +3,9 @@ export default defineNuxtConfig({
     typescript: {
         shim: false,
     },
+    modules: [
+      '@pinia/nuxt',
+    ], 
     css: ['~/assets/css/main.css'],
     postcss: {
         plugins: {
